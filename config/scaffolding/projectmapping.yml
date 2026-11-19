@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: FEMSA_MDM_IntegrationProject
+runtimes:
+- runtimeAlias: femsa_wm_edge_mx
+  assets:
+  - name: Hello_World
+    type: workflow
+    uid: flb9964d4296cf46ec8003c96579e3a332
+    stepId: a0
+    reference: project.femsa_mdm_integration.integrations:helloWorldSVC
