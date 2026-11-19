@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/rafestevam
   gitUsername: rafestevam
   gitBranch: main
+services:
+- serviceName: project.femsa_mdm_integration.integrations:helloWorldSVC
+  packages:
+  - name: FEMSA_MDM_IntegrationProject
+    version: "1.0"
+- serviceName: project.femsa_mdm_integration.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: FEMSA_MDM_IntegrationProject
+    version: "1.0"
